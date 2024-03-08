@@ -3,4 +3,4 @@
     +https://github.com/facebook/create-react-app
 
 ### `npm start`
-+[http://localhost:3000]으로 실행
++http://localhost:3000으로 실행
