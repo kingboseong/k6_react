@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
-import App01 from './App01';
+// import App01 from './App01';
+import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/* <App /> */}
-    <App01 />
-  </React.StrictMode>
+  //<React.StrictMode> = 내부적으로 한 번 더 엄격하게 검사해주는 태그
+  // <React.StrictMode>
+    <App />
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
