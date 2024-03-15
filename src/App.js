@@ -4,7 +4,7 @@ import { CiHome } from "react-icons/ci";
 import './App.css';
 // import MainHeader from './01/MainHeader';
 // import Hello from './01/Hello';
-
+import MyDiv from './03_1/MyDiv1';
 
 function App() {
   return (
@@ -24,8 +24,10 @@ function App() {
         <div><FaReact className='text-6xl'/></div>
         <div><CiHome className='text-4xl' /></div>
       </header>
-      <main className='grow'>
-        <HelloCss></HelloCss>
+      <main className='grow flex flex-col
+                      justify-center items-center
+                      '>
+        <MyDiv/>
       </main>
       <footer className='flex justify-center
                         items-center h-20
