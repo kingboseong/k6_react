@@ -1,10 +1,12 @@
-import HelloCss from './02/HelloCss';
+import './App.css';
+// import HelloCss from './02/HelloCss';
 import { FaReact } from "react-icons/fa";
 import { CiHome } from "react-icons/ci";
-import './App.css';
 // import MainHeader from './01/MainHeader';
 // import Hello from './01/Hello';
-import MyDiv from './03_1/MyDiv1';
+// import MyDiv from './03_1/MyDiv1';
+import MyList from './04/MyListMain';
+import MyListMain from './04/MyListMain';
 
 function App() {
   return (
@@ -27,7 +29,7 @@ function App() {
       <main className='grow flex flex-col
                       justify-center items-center
                       '>
-        <MyDiv/>
+        <MyListMain/>
       </main>
       <footer className='flex justify-center
                         items-center h-20

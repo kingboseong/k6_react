@@ -3,7 +3,7 @@
 
 import MyDiv2 from "./MyDiv2"
 
-export default function MyDiv() {
+export default function MyDiv1() {
   const dname1 = 'div1'
   const dname2 = 'div2'
   const dname3 = 'div3'
