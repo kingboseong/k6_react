@@ -6,7 +6,9 @@ import { useState } from "react";
 export default function BoxOfficeTb() {
     console.log(BoxOfficeData)
     const MovieList = BoxOfficeData.boxOfficeResult.dailyBoxOfficeList
-
+    
+    //tr에 있는 handleClick(item)이 밑에 i로 왔다.
+    //state특성상 stCnt변수를 setselMv변수에 저장 후 다시 selMv에 준다.
     const [selMv, setselMv] = useState();
     const handleClick = (i) => {
         console.log(i)
