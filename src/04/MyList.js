@@ -41,4 +41,4 @@ export default function MyList({ title, imgUrl, content }) {
 }
 
 //콘솔에서 누르면 바뀌는 것을 요소에서도 바뀌게 하는 방법이 react의 핵심 = hook.
-//hook중 기본인 statehook
+//hook중 기본인 usestate
