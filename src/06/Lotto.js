@@ -36,7 +36,7 @@ export default function Lotto() {
             <div>
                 <TailButton caption='로또번호생성1'
                     hendleClick={hendleLottoClick1}
-                    color='red' />
+                    color='red'/>
             </div>
         </div>
     )

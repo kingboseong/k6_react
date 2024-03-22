@@ -8,7 +8,9 @@ import { CiHome } from "react-icons/ci";
 // import MyList from './04/MyListMain';
 // import MyListMain from './04/MyListMain';
 // import BoxOfficeTb from './05_11/BoxOfficeTb';
-import Lotto from './06/Lotto';
+// import Lotto from './06/Lotto';
+// import FoodMain from './07/FoodMain';
+import MyClock from './08/MyClock';
 
 function App() {
   return (
@@ -31,7 +33,7 @@ function App() {
       <main className='grow flex flex-col
                       justify-center items-center
                       '>
-        <Lotto/>
+        <MyClock/>
       </main>
       <footer className='flex justify-center
                         items-center h-20
