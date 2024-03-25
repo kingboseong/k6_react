@@ -61,7 +61,7 @@ export default function TrafficMaon() {
     console.log("selC2: ", selC2)
     if (!tdata) return;
     let tm = tdata.filter(item => item.사고유형_대분류 === selC1 && item.사고유형_중분류 === selC2)  
-    setDatail(tm[0])
+    setDatail(tm[0]) //detail변수에 넣어주는 값은 첫번째 오브젝트
   }, [selC2])
 
   useEffect(() => {

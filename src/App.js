@@ -11,7 +11,10 @@ import { CiHome } from "react-icons/ci";
 // import Lotto from './06/Lotto';
 // import FoodMain from './07/FoodMain';
 // import MyClock from './08/MyClock';
-import TrafficMain from './09/TrafficMain';
+// import TrafficMain from './09/TrafficMain';
+// import RefVal from './10/RefVal';
+// import RefInput from './10/RefInput';
+import BoxOfficeRe from './05/BoxOfficeRe';
 
 function App() {
   return (
@@ -34,7 +37,7 @@ function App() {
       <main className='grow flex flex-col
                       justify-center items-center
                       '>
-        <TrafficMain/>
+        <BoxOfficeRe/>
       </main>
       <footer className='flex justify-center
                         items-center h-20
