@@ -10,7 +10,7 @@ export default function BoxOfficeTbRe() {
     const [trs, setTrs] = useState()
     const boxRef = useRef()
     const [selMv, setselMv] = useState();
-
+                 
     useEffect(() => {
         const tm = boxList.map(item =>
             <tr key={item.movieCd}
