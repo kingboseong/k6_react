@@ -9,11 +9,13 @@ export default function TailButton({ caption, hendleClick, color }) {
         'orange': 'hover:bg-orange-700',
         'blue': 'hover:bg-blue-700',
     }
-    const dColor = `py-4 px-2 m-2 text-white rounded-md 
-                    ${colorObj[color]} ${hoverObj[color]}`
+    const dColor = `py-4 px-2 m-2 text-white rounded-md w-full
+                    ${colorObj[color]} 
+                    ${hoverObj[color]}`
 
     return (
-        <button className={dColor} onClick={hendleClick}>
+        <button className={dColor}
+                onClick={hendleClick}>
             {caption}
         </button>
     )
