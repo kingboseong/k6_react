@@ -5,7 +5,7 @@ import "./MyClock.css"
 
 function MyClock() {
     return (
-        <div className="mainArea">
+        <div className="w-full h-full flex flex-col justify-center items-center">
             <MyClockImage/>
             <MyClockTime/>
         </div>
